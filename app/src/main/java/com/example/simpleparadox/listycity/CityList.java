@@ -26,7 +26,7 @@ public class CityList {
      * @param city
      *      This is a candidate city to delete
      */
-public void delete(City city){
+public void Delete(City city){
     if (cities.contains(city)) {
         cities.remove(city);
     }
