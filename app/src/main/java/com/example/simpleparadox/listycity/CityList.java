@@ -22,11 +22,11 @@ public class CityList {
         cities.add(city);
     }
     /**
-     * This deletes a city to the list if the city does  exist
+     * This deletes a city from the list if the city does  exist
      * @param city
      *      This is a candidate city to delete
      */
-public void Delete(City city){
+public void Deletecity(City city){
     if (cities.contains(city)) {
         cities.remove(city);
     }

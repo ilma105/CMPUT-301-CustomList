@@ -38,7 +38,7 @@ class CityListTest {
         City city = new City("Regina", "Saskatchewan");
         cityList.add(city);
         assertEquals(2, cityList.getCities().size());
-        cityList.Delete(city);
+        cityList.Deletecity(city);
         assertEquals(1, cityList.getCities().size());
 
 
@@ -63,9 +63,9 @@ class CityListTest {
 
         City city = new City("Yellowknife", "Northwest Territories");
         cityList.add(city);
-cityList.Delete(city);
+cityList.Deletecity(city);
         assertThrows(IllegalArgumentException.class, () -> {
-            cityList.Delete(city);
+            cityList.Deletecity(city);
         });
     }
     @Test
